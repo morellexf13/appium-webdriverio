@@ -4,20 +4,20 @@
     🍭
     <br />
     <br />
-    Appium WebdriverIO Tuto
+    Appium WebdriverIO
     <br />
     <br />
   </h1>
   <sup>
     <br />
- Appium WebdriverIO Starter Boilerplate for NodeJS, test your mobile apps with ease!</em>
+Appium WebdriverIO Starter Boilerplate for NodeJS with Mocha. Test your mobile apps with ease!</em>
     <br />
     <br /
 
-[![Version](https://img.shields.io/github/v/tag/morellexf26/appium-webdriverio-tuto?label=%20&style=for-the-badge)](https://github.com/morellexf26/appium-webdriverio-tuto/releases)
-[![License](https://img.shields.io/badge/-MIT-f56565.svg?longCache=true&style=for-the-badge)](https://github.com/morellexf26/appium-webdriverio-tuto/blob/main/LICENSE)
-[![Package Monthly Downloads](https://img.shields.io/npm/dm/appium-webdriverio-tuto?label=%20&style=for-the-badge)](https://www.npmjs.com/package/appium-webdriverio-tuto)
-[![Docs](https://img.shields.io/badge/-Docs-blue.svg?style=for-the-badge)](https://vuejs.org)
+[![Version](https://img.shields.io/github/v/tag/morellexf26/appium-webdriverio?label=%20&style=for-the-badge)](https://github.com/morellexf26/appium-webdriverio/releases)
+[![License](https://img.shields.io/badge/-MIT-f56565.svg?longCache=true&style=for-the-badge)](https://github.com/morellexf26/appium-webdriverio/blob/main/LICENSE)
+[![Package Monthly Downloads](https://img.shields.io/npm/dm/appium-webdriverio?label=%20&style=for-the-badge)](https://www.npmjs.com/package/appium-webdriverio)
+[![Docs](https://img.shields.io/badge/-Docs-blue.svg?style=for-the-badge)](https://webdriver.io)
 
   </sup>
 </div>
@@ -32,17 +32,8 @@
 - Setup `ANDROID_HOME` & `JAVA_HOME`
 - Install Android Studio (If you want to test using an emulator)
 
-    *In order to get your app selectors I recommend you to:
 
-- Install Appium Desktop version, it can be found [here](https://github.com/appium/appium-desktop/releases/). 
-
-    Make sure that both host & port are configured as you can see in the image bellow.
-    <img alt='Appium Desktop' src="./screenshots/appium-gui.png" />
-
-
-    Why not the terminal version? because this one is easier to configure and you will have a better way to see what is happening while the app is running 😊
-
-- Install Appium Inspector, it can be found [here](https://github.com/appium/appium-inspector/releases).
+- In order to get your app selectors I recommend you to install Appium Inspector, it can be found [here](https://github.com/appium/appium-inspector/releases).
 
     1. Open the application you've just installed.
     2. Type `0.0.0.0` in Remote Host.
@@ -52,7 +43,7 @@
         There are tons of options but you only need this to start.
         ```json
         {
-            "platformName": "Android", // or iOS
+            "platformName": "Android",
             "appium:platformVersion": "12",
             "appium:deviceName": "Android Emulator",
             "appium:app": "{PATH TO APK OR IPA FILE}",
@@ -74,7 +65,22 @@ Always try to set accessibility ids! 🫡
 
 Install it locally and run in easy steps
 
-```bash
-npm install
-npm test
 ```
+1- cd appium-webdriverio
+2- npm install
+3- npm test
+```
+
+
+## 📊 Run tests with allure reports
+
+Pre-requisites:
+```
+brew install allure
+```
+Generate & Open
+```
+npm run test-output-allure
+```
+
+<img alt='Allure Report' src="./screenshots/allure-report.png" />
