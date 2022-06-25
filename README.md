@@ -59,8 +59,6 @@ Always try to set accessibility ids! 🫡
 
 <img alt='Appium Inspector' src="./screenshots/appium-inspector-2.png" />
 
-<br>
-
 ## 🚀 Install & Run boilerplate
 
 Install it locally and run in easy steps
