@@ -2,17 +2,24 @@
   "name": "appium-webdriverio",
   "version": "1.0.1",
   "description": "Appium WebdriverIO Starter Boilerplate for NodeJS with Mocha. Test your mobile apps with ease!",
-  "main": "index.js",
+  "author": "morellexf13",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morellexf13/appium-webdriverio.git"
+  },
   "scripts": {
     "test": "./node_modules/.bin/wdio wdio.conf.js",
     "test-allure": "npm run test && allure generate --clean && allure open"
   },
-  "keywords": ["boilerplate", "nodejs", "webdriverio", "mocha", "appium"],
-  "repository": {
-      "type": "git",
-      "url": "https://github.com/morellexf26/appium-webdriverio.git"
-  },
-  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "boilerplate",
+    "nodejs",
+    "webdriverio",
+    "mocha",
+    "appium"
+  ],
   "dependencies": {
     "appium": "^1.22.3",
     "chai": "^4.3.7",
