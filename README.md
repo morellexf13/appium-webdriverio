@@ -12,8 +12,9 @@
     <br />
 Appium WebdriverIO Starter Boilerplate for NodeJS with Mocha. Test your mobile apps with ease!</em>
     <br />
-    <br /
+    <br />
 
+[![Build status](https://img.shields.io/github/actions/workflow/status/morellexf13/appium-webdriverio/build.yml?branch=main&label=%20&logo=github&logoColor=white&style=for-the-badge)](https://github.com/morellexf13/appium-webdriverio/actions/workflows/build.yml)
 [![Version](https://img.shields.io/github/v/tag/morellexf13/appium-webdriverio?label=%20&style=for-the-badge)](https://github.com/morellexf13/appium-webdriverio/releases)
 [![License](https://img.shields.io/badge/-MIT-f56565.svg?longCache=true&style=for-the-badge)](https://github.com/morellexf13/appium-webdriverio/blob/main/LICENSE)
 [![Package Monthly Downloads](https://img.shields.io/npm/dm/appium-webdriverio?label=%20&style=for-the-badge)](https://www.npmjs.com/package/appium-webdriverio)
