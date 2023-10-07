@@ -83,7 +83,7 @@ brew install allure
 Generate & Open
 
 ```
-npm run test-output-allure
+npm run test-allure
 ```
 
 <img alt='Allure Report' src="./screenshots/allure-report.png" />

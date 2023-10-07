@@ -7,14 +7,14 @@ exports.config = {
   sync: false,
   capabilities: [
     {
-      autoGrantPermissions: true,
-      autoDissmissAlerts: true,
-      autoAcceptAlerts: true,
       platformName: "Android",
-      platformVersion: "12",
-      deviceName: "Android Emulator",
-      app: "/Users/YOUR USER/Documents/GitHub/appium-webdriverio/resources/debug.apk", // path to the app
-      automationName: "UiAutomator2", // Name of automation driver, essential parameter for webdriverio locators to work.
+      "appium:platformVersion": "12.0",
+      "appium:deviceName": "emulator-5554",
+      "appium:autoGrantPermissions": true,
+      "appium:autoDissmissAlerts": true,
+      "appium:autoAcceptAlerts": true,
+      "appium:app": "./resources/debug.apk", // path to the app
+      "appium:automationName": "UiAutomator2", // Name of automation driver, essential parameter for webdriverio locators to work.
     },
   ],
   services: [
